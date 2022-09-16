@@ -16,7 +16,7 @@ void loop() {
     // add your own hooks to warn user here
   } */
   while (digitalRead(fPIR) == HIGH) {
-    for (int i = 0; i <= 10 && in != 1, i++) {
+    for (int i = 0; i <= 10, i++) {
       if (digitalRead(rPIR) == HIGH) {
         pnum = pnum + 1;
       }
@@ -24,7 +24,7 @@ void loop() {
     }
   }
   while (digitalRead(rPIR) == HIGH) {
-    for (int i = 0; i <= 10 && in != 1, i++) {
+    for (int i = 0; i <= 10, i++) {
       if (digitalRead(fPIR) == HIGH) {
         pnum = pnum - 1;
       }
