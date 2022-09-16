@@ -12,7 +12,7 @@ void setup() {
 int pnum = 0;
 
 void loop() {
-  /* if (pnum >= (maxcap * (perfentage / 100)) ) {
+  /* if (pnum >= (maxcap * (percentage / 100)) ) {
     // add your own hooks to warn user here
   } */
   while (digitalRead(fPIR) == HIGH) {
